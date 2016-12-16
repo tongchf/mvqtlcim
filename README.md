@@ -18,7 +18,7 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
             -t INT		number of threads [1]  
             -a FLOAT	threshold of p-value for a marker to be added in stepwise regression [0.05]  
             -d FLOAT	threshold of p-value for a marker to be deleted in stepwise regression [0.10]  
-            
+---            
     Usage: Rscript lrPlot.r -i qtlrstfile [options]
     Options:
         	-p	str	result file for permutations
