@@ -31,3 +31,5 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
 	        -v	float	giving the threshold value manually
 
 # Input data
+The input data is formated in a plain text as the following example file, where 
+
