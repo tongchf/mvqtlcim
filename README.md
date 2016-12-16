@@ -8,7 +8,7 @@ With the embedded example input file `example.txt`, users can get started with t
   
 One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show the usages of `mvqtlcim` and `lrPlot.r`, respectivley, as follows  
 
-<table><tr><td bgcolor=#7FFFD4>
+<table><tr><td bgcolor=#7FFFD4>   abcd </td></tr></table> 
     Usage: mvqtlcim <-i inputfile.txt> [options]  
     Options:  
             -b INT  	number of background markers [15]  
@@ -30,7 +30,6 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
 	        -s	float	significant level in(0.0001,0.2) [0.05]
 	        -t	str	the plot format of 'pdf','png','jpg','tif' and 'bmp' [pdf]
 	        -v	float	giving the threshold value manually
-		</td></tr></table>
 
 # Input data
 The input data is formated in a plain text as the following example file, where 
