@@ -7,3 +7,14 @@ With the embedded example input file `example.txt`, users can get started with t
 `Rscript lrPlot.r -i example_CIM_M1Rst.txt -p example_CIMPermuM1Rst.txt -w 1`  
   
 One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show the usages of `mvqtlcim` and `lrPlot.r`, respectivley, as follows  
+    Usage: mvqtlcim <-i inputfile.txt> [options]  
+    Options:   
+            -b INT  	number of background markers [15]  
+            -w FLOAT	window size [10.0]  
+            -m STR		qtl models chosen from 1 to 5,such as '134' and '235' [12345]  
+            -f INT		genetic map function, 1 for Haldane and 2 for Kosambi [1]  
+            -p INT		number of permutaions [0]  
+            -t INT		number of threads [1]  
+            -a FLOAT	threshold of p-value for a marker to be added in stepwise regression [0.05]  
+            -d FLOAT	threshold of p-value for a marker to be deleted in stepwise regression [0.10]  
+            
