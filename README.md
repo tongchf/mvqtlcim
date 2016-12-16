@@ -4,5 +4,6 @@ MVQTLCIM is a software package for composite inverval mapping QTLs with multivar
 With the embedded example input file `example.txt`, users can get started with the following commands:  
 `./mvqtlcim -i example.txt -b 5 -m 1`  
 `./mvqtlcim -i example.txt -b 5 -w 15.0 -p 1000 -t 20`  
-`Rscript lrPlot.r -i example_CIM_M1Rst.txt -p example_CIMPermuM1Rst.txt -w 1`
+`Rscript lrPlot.r -i example_CIM_M1Rst.txt -p example_CIMPermuM1Rst.txt -w 1`  
+  
 One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show the usages of `mvqtlcim` and `lrPlot.r`, respectivley, as follows  
