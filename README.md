@@ -33,12 +33,12 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
 # Input data
 The input data is formated in a plain text as the following example file, where 
 
-		Pop_Type:	F1
-		Sample_Size:	300
-		Linkage_Group_Number:	5
-		Marker_Number_Within_Groups:
-		LG1	11
-		LG2	11
-		LG3	11
-		LG4	11
-		LG5	11
+    Pop_Type:	F1
+    Sample_Size:	300
+    Linkage_Group_Number:	5
+    Marker_Number_Within_Groups:
+    LG1	11
+    LG2	11
+    LG3	11
+    LG4	11
+    LG5	11
