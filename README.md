@@ -29,3 +29,5 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
 	        -s	float	significant level in(0.0001,0.2) [0.05]
 	        -t	str	the plot format of 'pdf','png','jpg','tif' and 'bmp' [pdf]
 	        -v	float	giving the threshold value manually
+
+# Input data
