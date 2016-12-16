@@ -7,6 +7,7 @@ With the embedded example input file `example.txt`, users can get started with t
 `Rscript lrPlot.r -i example_CIM_M1Rst.txt -p example_CIMPermuM1Rst.txt -w 1`  
   
 One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show the usages of `mvqtlcim` and `lrPlot.r`, respectivley, as follows  
+
     abcd efg  
     Usage: mvqtlcim <-i inputfile.txt> [options] 
 
