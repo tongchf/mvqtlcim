@@ -19,3 +19,13 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
             -a FLOAT	threshold of p-value for a marker to be added in stepwise regression [0.05]  
             -d FLOAT	threshold of p-value for a marker to be deleted in stepwise regression [0.10]  
             
+    Usage: Rscript lrPlot.r -i qtlrstfile [options]
+    Options:
+        	-p	str	result file for permutations
+	        -w	int	just taking the value of 0, 1 or 2 [0]
+			        0: manually giving the threshold value
+			        1: genome-wide threshold determined by permutations
+			        2: linkage-group-wide threshold determined by permutations
+	        -s	float	significant level in(0.0001,0.2) [0.05]
+	        -t	str	the plot format of 'pdf','png','jpg','tif' and 'bmp' [pdf]
+	        -v	float	giving the threshold value manually
