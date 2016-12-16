@@ -8,7 +8,7 @@ With the embedded example input file `example.txt`, users can get started with t
   
 One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show the usages of `mvqtlcim` and `lrPlot.r`, respectivley, as follows  
     Usage: mvqtlcim <-i inputfile.txt> [options]  
-    Options:   
+    Options:  
             -b INT  	number of background markers [15]  
             -w FLOAT	window size [10.0]  
             -m STR		qtl models chosen from 1 to 5,such as '134' and '235' [12345]  
