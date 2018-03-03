@@ -31,7 +31,7 @@ One can directly run the commands, `./mvqtlcim` and `Rscript lrPlot.r`, to show 
 	        -v	float	giving the threshold value manually
 
 # Input data
-The input data is formated in a plain text as the following example file. In the marker data part, the first column is the serial number of linkage groups, the second the serial number of markers within a linkage group, the third the marker distance from the first marker within a linkage group, the fourth and fifth the marker phases of parents P1 and P2, respectively, and from the sixth column on, each is the marker genotype of an individual at the marker. Similarly, from the six column on in the trait data part, each cell is a trait value at a time point of an individual. In addition, a missing genotype is coded by "--".
+The input data is formated in a plain text as the following example file. In the marker data part, the first column is the serial number of linkage groups, the second the serial number of markers within a linkage group, the third the marker distance from the first marker within a linkage group, the fourth and fifth the marker phases of parents P1 and P2, respectively, and from the sixth column on, each is the marker genotype of an individual at the marker. Similarly, from the six column on in the trait data part, each cell is a trait value at a time point of an individual. In addition, a missing genotype is coded by "--", but missing phenotype data are not allowed.
 
 	Pop_Type:	F1  
 	Sample_Size:  300  
