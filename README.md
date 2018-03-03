@@ -115,21 +115,27 @@ The input data is formated in a plain text as the following example file. In the
 
 # Output
 For exmaple, when you run the command  
-`/mvqtlcim -i example.txt -b 5 -w 15.0 -p 1000 -t 30 -m 1`
-you will have two result files, "example_CIM_M1Rst.txt" and "example_CIMPermuM1Rst.txt", and a fold, permu1. You can ignore the files in the fold, because all the permutaion results are summarized in the file "example_CIMPermuM1Rst.txt". The columns in "example_CIM_M1Rst.txt" are described as following.  
+`/mvqtlcim -i example.txt -b 5 -w 15.0 -p 1000 -t 30 -m 1`  
+you will have two result files, "example_CIM_M1Rst.txt" and "example_CIMPermuM1Rst.txt", and a fold, "permu1". You can ignore the files in the fold, because all the permutaion results are summarized in the file "example_CIMPermuM1Rst.txt". The columns in "example_CIM_M1Rst.txt" are described as following.  
 
-Column  Description  
-1  No. for linkage groups  
-2  No. for marker intervals within a linkage group  
-3  Position of a putative QTL within a marker interval  
-4  Cumulative position of the QTL along the whole linkage groups (chromosomes)  
-5  Log likelihood under H0  
-6  Log likelihood under H1  
-7  Log likelihood ratio (LR)  
-8  No. for the QTL model used  
-9  AIC value  
-10  BIC value  
-11  TIC value  
-12-19  The estimates for vector mu1  
-20-27  The estimates for vector mu2  
-28-91  The estimates for matrix sigma arranged by row  
+	Column	Description  
+	1	No. for linkage groups  
+	2	No. for marker intervals within a linkage group  
+	3	Position of a putative QTL within a marker interval  
+	4	Cumulative position of the QTL along the whole linkage groups (chromosomes)  
+	5	Log likelihood under H0  
+	6	Log likelihood under H1  
+	7	Log likelihood ratio (LR)  
+	8	No. for the QTL model used  
+	9	AIC value  
+	10	BIC value  
+	11	TIC value  
+	12-19	The estimates for vector mu1  
+	20-27	The estimates for vector mu2  
+	28-91	The estimates for matrix sigma arranged by row  
+
+With the two files generated above, when you run  
+`Rscript lrPlot.r -i example_CIM_M1Rst.txt -p example_CIMPermuM1Rst.txt -w 1`  
+it will generate two files. One is "example_CIM_M1Rst_SigQtl_W1_0.05.txt", which contains the results in the positions where the peak LR value is above the threshold. The other is a pdf file, namely "example_CIM_M1RstLRS_W1_0.05.pdf", plotting the profile of LR against the genome position.
+
+#Reference
